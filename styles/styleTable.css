@@ -1,0 +1,42 @@
+html {
+    font-family: sans-serif;
+}
+.sTabla {
+    position: relative;
+}
+.dTabla {
+    position: relative;
+    background-image: url("/assets/fotos/fondo-suelo-textura-madera-gris-descolorido_53876-110739.avif");
+    margin: 20%;
+    border: 5px solid #080606;
+    padding:200px 150px;
+}
+table {
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+th {
+    background-color: rgb(235,235,235);
+}
+td {
+    text-align: center;
+}
+.sPiePagina {
+    position:relative;
+}
+.dPiePagina {
+    position: relative;
+    text-align: center;
+    top: 3cm;
+    left: 50%;
+    transform: translate(-50%, -1%);
+}
